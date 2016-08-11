@@ -13,7 +13,7 @@ Package.onUse(function(api) {
     'underscore',
     'templating',
     'mrt:copy-template@0.9.0',
-    'mizzao:autocomplete@0.5.1',
+    'francocatena:autocomplete@0.5.1',
     'aldeed:autoform@4.2.2 || 5.1.2'
   ], 'client');
 
