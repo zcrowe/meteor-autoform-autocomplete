@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'mpowaga:autoform-autocomplete',
+  name: 'zcrowe:meteor-autoform-autocomplete',
   version: '0.0.2',
   summary: 'Autocomplete inputs for aldeed:autoform using mizzao:autocomplete',
   git: 'https://github.com/mpowaga/meteor-autoform-autocomplete.git',
@@ -27,7 +27,7 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('mpowaga:autoform-autocomplete');
+  api.use('zcrowe:meteor-autoform-autocomplete');
 
   api.addFiles('tests/helpers.js', 'client');
 });
